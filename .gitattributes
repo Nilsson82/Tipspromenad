@@ -1,0 +1,2 @@
+database/*.json text eol=lf
+database/*.sha256 text eol=lf

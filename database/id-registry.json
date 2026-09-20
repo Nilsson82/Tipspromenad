@@ -1,0 +1,588 @@
+{
+  "nextId": 31,
+  "neverReuse": true,
+  "mappings": [
+    {
+      "questionId": 1,
+      "source": "data_en.json",
+      "listIndex": 0,
+      "questionIndex": 0,
+      "addedDistractor": "Mont Blanc"
+    },
+    {
+      "questionId": 1,
+      "source": "data_sv.json",
+      "listIndex": 0,
+      "questionIndex": 0,
+      "addedDistractor": "Mont Blanc"
+    },
+    {
+      "questionId": 1,
+      "source": "data_es.json",
+      "listIndex": 1,
+      "questionIndex": 0,
+      "addedDistractor": "Mont Blanc"
+    },
+    {
+      "questionId": 2,
+      "source": "data_en.json",
+      "listIndex": 0,
+      "questionIndex": 1,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 2,
+      "source": "data_sv.json",
+      "listIndex": 0,
+      "questionIndex": 1,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 2,
+      "source": "data_es.json",
+      "listIndex": 1,
+      "questionIndex": 1,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 3,
+      "source": "data_en.json",
+      "listIndex": 0,
+      "questionIndex": 2,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 3,
+      "source": "data_sv.json",
+      "listIndex": 0,
+      "questionIndex": 2,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 3,
+      "source": "data_es.json",
+      "listIndex": 1,
+      "questionIndex": 2,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 4,
+      "source": "data_en.json",
+      "listIndex": 0,
+      "questionIndex": 3,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 4,
+      "source": "data_sv.json",
+      "listIndex": 0,
+      "questionIndex": 3,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 4,
+      "source": "data_es.json",
+      "listIndex": 1,
+      "questionIndex": 3,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 5,
+      "source": "data_en.json",
+      "listIndex": 0,
+      "questionIndex": 4,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 5,
+      "source": "data_sv.json",
+      "listIndex": 0,
+      "questionIndex": 4,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 5,
+      "source": "data_es.json",
+      "listIndex": 1,
+      "questionIndex": 4,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 6,
+      "source": "data_en.json",
+      "listIndex": 0,
+      "questionIndex": 5,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 6,
+      "source": "data_sv.json",
+      "listIndex": 0,
+      "questionIndex": 5,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 6,
+      "source": "data_es.json",
+      "listIndex": 1,
+      "questionIndex": 5,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 7,
+      "source": "data_en.json",
+      "listIndex": 0,
+      "questionIndex": 6,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 7,
+      "source": "data_sv.json",
+      "listIndex": 0,
+      "questionIndex": 6,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 7,
+      "source": "data_es.json",
+      "listIndex": 1,
+      "questionIndex": 6,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 8,
+      "source": "data_en.json",
+      "listIndex": 0,
+      "questionIndex": 7,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 8,
+      "source": "data_sv.json",
+      "listIndex": 0,
+      "questionIndex": 7,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 8,
+      "source": "data_es.json",
+      "listIndex": 1,
+      "questionIndex": 7,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 9,
+      "source": "data_en.json",
+      "listIndex": 0,
+      "questionIndex": 8,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 9,
+      "source": "data_sv.json",
+      "listIndex": 0,
+      "questionIndex": 8,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 9,
+      "source": "data_es.json",
+      "listIndex": 1,
+      "questionIndex": 8,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 10,
+      "source": "data_en.json",
+      "listIndex": 0,
+      "questionIndex": 9,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 10,
+      "source": "data_sv.json",
+      "listIndex": 0,
+      "questionIndex": 9,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 10,
+      "source": "data_es.json",
+      "listIndex": 1,
+      "questionIndex": 9,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 11,
+      "source": "data_en.json",
+      "listIndex": 0,
+      "questionIndex": 10,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 11,
+      "source": "data_sv.json",
+      "listIndex": 0,
+      "questionIndex": 10,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 11,
+      "source": "data_es.json",
+      "listIndex": 1,
+      "questionIndex": 10,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 12,
+      "source": "data_en.json",
+      "listIndex": 0,
+      "questionIndex": 11,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 12,
+      "source": "data_sv.json",
+      "listIndex": 0,
+      "questionIndex": 11,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 12,
+      "source": "data_es.json",
+      "listIndex": 1,
+      "questionIndex": 11,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 13,
+      "source": "data_en.json",
+      "listIndex": 1,
+      "questionIndex": 0,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 13,
+      "source": "data_sv.json",
+      "listIndex": 1,
+      "questionIndex": 0,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 13,
+      "source": "data_es.json",
+      "listIndex": 0,
+      "questionIndex": 0,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 14,
+      "source": "data_en.json",
+      "listIndex": 1,
+      "questionIndex": 1,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 14,
+      "source": "data_sv.json",
+      "listIndex": 1,
+      "questionIndex": 1,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 14,
+      "source": "data_es.json",
+      "listIndex": 0,
+      "questionIndex": 1,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 15,
+      "source": "data_en.json",
+      "listIndex": 1,
+      "questionIndex": 2,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 15,
+      "source": "data_sv.json",
+      "listIndex": 1,
+      "questionIndex": 2,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 15,
+      "source": "data_es.json",
+      "listIndex": 0,
+      "questionIndex": 2,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 16,
+      "source": "data_en.json",
+      "listIndex": 1,
+      "questionIndex": 3,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 16,
+      "source": "data_sv.json",
+      "listIndex": 1,
+      "questionIndex": 3,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 16,
+      "source": "data_es.json",
+      "listIndex": 0,
+      "questionIndex": 3,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 17,
+      "source": "data_en.json",
+      "listIndex": 1,
+      "questionIndex": 4,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 17,
+      "source": "data_sv.json",
+      "listIndex": 1,
+      "questionIndex": 4,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 17,
+      "source": "data_es.json",
+      "listIndex": 0,
+      "questionIndex": 4,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 18,
+      "source": "data_en.json",
+      "listIndex": 1,
+      "questionIndex": 5,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 18,
+      "source": "data_sv.json",
+      "listIndex": 1,
+      "questionIndex": 5,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 18,
+      "source": "data_es.json",
+      "listIndex": 0,
+      "questionIndex": 5,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 19,
+      "source": "data_en.json",
+      "listIndex": 1,
+      "questionIndex": 6,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 19,
+      "source": "data_sv.json",
+      "listIndex": 1,
+      "questionIndex": 6,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 19,
+      "source": "data_es.json",
+      "listIndex": 0,
+      "questionIndex": 6,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 20,
+      "source": "data_en.json",
+      "listIndex": 1,
+      "questionIndex": 7,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 20,
+      "source": "data_sv.json",
+      "listIndex": 1,
+      "questionIndex": 7,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 20,
+      "source": "data_es.json",
+      "listIndex": 0,
+      "questionIndex": 7,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 21,
+      "source": "data_en.json",
+      "listIndex": 1,
+      "questionIndex": 8,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 21,
+      "source": "data_sv.json",
+      "listIndex": 1,
+      "questionIndex": 8,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 21,
+      "source": "data_es.json",
+      "listIndex": 0,
+      "questionIndex": 8,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 22,
+      "source": "data_en.json",
+      "listIndex": 1,
+      "questionIndex": 9,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 22,
+      "source": "data_sv.json",
+      "listIndex": 1,
+      "questionIndex": 9,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 22,
+      "source": "data_es.json",
+      "listIndex": 0,
+      "questionIndex": 9,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 23,
+      "source": "data_en.json",
+      "listIndex": 1,
+      "questionIndex": 10,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 23,
+      "source": "data_sv.json",
+      "listIndex": 1,
+      "questionIndex": 10,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 23,
+      "source": "data_es.json",
+      "listIndex": 0,
+      "questionIndex": 10,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 24,
+      "source": "data_en.json",
+      "listIndex": 1,
+      "questionIndex": 11,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 24,
+      "source": "data_sv.json",
+      "listIndex": 1,
+      "questionIndex": 11,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 24,
+      "source": "data_es.json",
+      "listIndex": 0,
+      "questionIndex": 11,
+      "addedDistractor": null
+    },
+    {
+      "questionId": 25,
+      "source": "multilingual.json",
+      "legacyId": "triangle-sides",
+      "addedDistractors": [
+        "Six",
+        "Sex",
+        "Seis",
+        "Seks",
+        "Seks",
+        "Kuusi"
+      ]
+    },
+    {
+      "questionId": 26,
+      "source": "multilingual.json",
+      "legacyId": "water-formula",
+      "addedDistractors": [
+        "NaCl",
+        "NaCl",
+        "NaCl",
+        "NaCl",
+        "NaCl",
+        "NaCl"
+      ]
+    },
+    {
+      "questionId": 27,
+      "source": "multilingual.json",
+      "legacyId": "planet-nearest-sun",
+      "addedDistractors": [
+        "Jupiter",
+        "Jupiter",
+        "Júpiter",
+        "Jupiter",
+        "Jupiter",
+        "Jupiter"
+      ]
+    },
+    {
+      "questionId": 28,
+      "source": "multilingual.json",
+      "legacyId": "earth-natural-satellite",
+      "addedDistractors": [
+        "Venus",
+        "Venus",
+        "Venus",
+        "Venus",
+        "Venus",
+        "Venus"
+      ]
+    },
+    {
+      "questionId": 29,
+      "source": "multilingual.json",
+      "legacyId": "photosynthesis-gas",
+      "addedDistractors": [
+        "Nitrogen",
+        "Kväve",
+        "Nitrógeno",
+        "Kvælstof",
+        "Nitrogen",
+        "Typpeä"
+      ]
+    },
+    {
+      "questionId": 30,
+      "source": "multilingual.json",
+      "legacyId": "spider-legs",
+      "addedDistractors": [
+        "Ten",
+        "Tio",
+        "Diez",
+        "Ti",
+        "Ti",
+        "Kymmenen"
+      ]
+    }
+  ]
+}

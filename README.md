@@ -1,38 +1,21 @@
-# Tipspromenad
+# Tipspromenad question database
 
-Incremental update of `Nilsson82/Tipspromenad`. This remains the existing webpack/plain-JavaScript application. Original twelve Swedish questions and answer order are preserved in `public/Data/legacy_sv.json`; `src/data.js` retains a compatible export.
+Canonical **data-only** repository for [Android](https://github.com/Nilsson82/Tipspromenad-app-for-Android) and the [participant website](https://github.com/Nilsson82/TipspromenadQuizWebPage). No participant records, hosting API, executable quiz rules, or user accounts belong here.
 
-## Languages and play
+- `database/revision-1.json`: immutable schema-v2 bank, 30 logical questions. Exactly four source options per translation; 24 questions in en/sv/es and six in all six languages.
+- `database/schema.json`: JSON Schema; semantic checks also require unique IDs and valid category references.
+- `database/id-registry.json`: permanent numeric IDs, original-source mapping and explicitly added fourth distractors. Never reuse IDs; wording edits keep IDs but produce a new database revision.
+- `database/revision-1.sha256`: integrity lock. Published revisions are never overwritten. Keep old revisions available for old quiz QR codes.
+- `tests/`: data validation, not application logic. Run `node --test tests/*.test.cjs` using Node 22 or newer. No dependency installation or webpack build is needed.
 
-UI/question languages are independent: English (`en`), Swedish (`sv`), Spanish (`es`), Danish (`da`), Norwegian Bokmål (`no`), Finnish (`fi`). Aliases `se`/`dk`, `nb`/`nn` and regional tags normalize to canonical codes. UI falls back to English; question content does not.
+Five ambiguous/outdated legacy questions are marked deprecated and excluded from new selections pending editorial review. Their data is retained. There are 25 selectable questions in en/sv/es and six in da/no/fi; requesting more produces an explicit error. Legacy answer-sheet templates are not factual questions and remain in the classic web mode.
 
-The original Swedish quiz remains available in Swedish. A shared six-question starter is available in all six languages; other languages do not pretend to translate the original twelve. All questions appear together and are corrected on submission. Browser storage restores answers/results against an unchanged data fingerprint. Query example: `?ui=es&quizLang=sv`.
+Translations and inherited facts still need editorial review. The original bank was not fully fact-checked. This revision adds fourth distractors without changing the original correct answers. External legacy images are omitted from the new bank; classic files retain their original references.
 
-## Build, test and run
+The previous webpack app was backed up outside this repository under the Android workspace's `deliverables/Tipspromenad-web-before-database-*.zip` before this conversion. It is no longer part of this data repository; classic quiz functionality remains in QuizWebPage. Review Git's deletions and additions together when committing the conversion. Do not upload participant exports or Android app data.
 
-Node.js 18 or later, npm; preserve `package-lock.json`:
+Distribute updates by adding `revision-N.json`, preserving all old revision files, updating consuming clients and running their compatibility tests. Android's `tools/sync-offline-assets.ps1` copies revision 1 into the website and APK; the clients do not need sibling repositories at runtime.
 
-```sh
-npm ci
-npm test
-npm run build
-npm run preview
-```
+Licensing: see [the source publication notice](LICENSE), adapted from Nightfall Run. All rights reserved. Third-party rights and permissions previously granted under applicable licenses remain unaffected.
 
-Production preview: `http://127.0.0.1:8081`. `npm start` runs webpack's development server. Build output is `dist/`, including HTML, JavaScript, CSS, translations and data. Commands now use `src/webpack.config.js`; paths, webpack-dev-server settings and the undeclared Express preview dependency were corrected.
-
-The inherited lockfile was preserved. Installation reported 38 audit findings (6 low, 11 moderate, 18 high, 3 critical). No forced major upgrades were applied; review these separately before exposing development tooling. The published quiz is static.
-
-## Upload
-
-Commit/upload source and updated `dist/` to the existing `Nilsson82/Tipspromenad` repository when ready. No push or publication occurred. For GitHub Pages, configure a Pages workflow to publish **`dist/`** as its artifact. `public/index.html` is the webpack input template, not the finished page. Relative assets work under a repository path such as `/Tipspromenad/`.
-
-ZIP delivery contains source and production output, excluding `.git` and `node_modules`. Run `npm ci` after extraction to rebuild. Alternatively deploy only `dist/` contents to any static host.
-
-## Shared source and retained code
-
-`src/index.js` uses `public/lib/`, `public/locales/ui.json` and `public/Data/multilingual.json`. Canonical source: the existing **TipspromenadQuizWebPage** project. Edit there, then run Android's `tools/sync-web-assets.ps1`; `-Check` verifies hashes. The distribution is independently deployable without filesystem dependencies on another repository.
-
-`src/script.js` and `style.css` remain unused historical files. React dependencies already existed; this update adds no React components or framework migration.
-
-See `docs/ARCHITECTURE.md` and `docs/contracts/README.md`. Original questions need factual/editorial review; data was preserved rather than declared fully verified. New translations have not had native-editor review. GPS, QR, organizers and guaranteed offline play remain future phases.
+Question provenance is documented in [QUESTION_SOURCES.md](QUESTION_SOURCES.md). The starter source IDs map to permanent numeric IDs 25–30 in database/id-registry.json.
